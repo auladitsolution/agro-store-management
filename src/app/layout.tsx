@@ -14,6 +14,18 @@ const hindSiliguri = Hind_Siliguri({
 export const metadata: Metadata = {
   title: 'এগ্রো স্টোর ম্যানেজমেন্ট সিস্টেম | Aulad IT Solution',
   description: 'বাংলাদেশি কৃষি ইনপুট ও এগ্রো শপের সম্পূর্ণ বাণিজ্যিক ম্যানেজমেন্ট সফটওয়্যার',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
